@@ -15,7 +15,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: generic/opensuse42
+  - name: opensuse-42.3
 
 suites:
   - name: default

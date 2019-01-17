@@ -7,7 +7,7 @@ env:
   - KITCHEN_YAML=.kitchen.yml
   - KITCHEN_LOCAL_YAML=.kitchen.dokken.yml
   matrix:
-  - INSTANCE=default-opensuse-15
+  - INSTANCE=default-opensuse-42
 
 before_script:
 #  - sudo iptables -L DOCKER || ( echo "DOCKER iptables chain missing" ; sudo iptables -N DOCKER )
